@@ -10,5 +10,6 @@ urlpatterns = [
     #마지막 부분인 name='post_list'는 URL에 이름을 붙인 것으로 뷰를 식별
     path('post/<int:pk>/', views.post_detail, name='post_detail'),
     # post/기본키/ 경로로 접근 시, post_detail 뷰 보여주기
-    
+    path('post/new/', views.post_new, name='post_new'), #폼 뷰 추가
+    path('post/<int:pk>/edit/', views.post_edit, name='post_edit'), #폼 수정 뷰 추가
 ]
