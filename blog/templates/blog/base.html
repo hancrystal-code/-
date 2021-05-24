@@ -5,7 +5,7 @@
     <body>
         <div class="page-header">
         {% if user.is_authenticated %}
-            <a href="{% url 'post_new' %}" class="top-menu"><button type="button">Edit</button></a>
+            <a href="{% url 'post_new' %}" class="top-menu"><button type="button">글쓰기</button></a>
         {% endif %}
             <h1><a href="/">Django Girls Blog</a></h1>
         </div>
