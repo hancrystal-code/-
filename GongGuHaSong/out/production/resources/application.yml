@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:solabo123@cluster0.vdwax.mongodb.net/?retryWrites=true&w=majority
+      database: sm
+#      host: localhost
+#      port: 27017
+#      database: sm
